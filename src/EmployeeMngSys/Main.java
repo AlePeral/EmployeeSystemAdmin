@@ -1,9 +1,10 @@
 package EmployeeMngSys;
 
+import java.sql.SQLDataException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLDataException {
         EmployeeDoa dao = new EmployeeDaoImpl();
         String name;
         int id;
