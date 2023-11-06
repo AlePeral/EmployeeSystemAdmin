@@ -11,7 +11,7 @@ public class Conexion {
            Class.forName("com.mysql.cj.jdbc.Driver");
            String url = "jdbc:mysql://localhost:3306/myEmployeeSys?useSSL=false&allowPublicKeyRetrieval=true";
            String username = "root";
-           String password = "Alegperal";
+           String password = "";
 
            con = DriverManager.getConnection(url, username, password);
 
